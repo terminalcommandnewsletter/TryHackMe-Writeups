@@ -1,0 +1,13 @@
+
+=====================================================
+Gobuster v2.0.1              OJ Reeves (@TheColonial)
+=====================================================
+[+] Mode         : dir
+[+] Url/Domain   : http://10.10.233.156/
+[+] Threads      : 10
+[+] Wordlist     : /home/ubuntu/tools/wordlists/SecLists/Discovery/Web-Content/directory-list-2.3-medium.txt
+[+] Status codes : 200,204,301,302,307,403
+[+] Timeout      : 10s
+=====================================================
+=====================================================
+/javascript (Status: 301)

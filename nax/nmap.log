@@ -1,0 +1,50 @@
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 19:07
+Completed NSE at 19:07, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 19:07
+Completed NSE at 19:07, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 19:07
+Completed NSE at 19:07, 0.00s elapsed
+Initiating Ping Scan at 19:07
+Scanning 10.10.233.156 [2 ports]
+Completed Ping Scan at 19:07, 0.13s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 19:07
+Completed Parallel DNS resolution of 1 host. at 19:07, 0.02s elapsed
+DNS resolution of 1 IPs took 0.02s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 19:07
+Scanning 10.10.233.156 [65535 ports]
+Discovered open port 25/tcp on 10.10.233.156
+Discovered open port 80/tcp on 10.10.233.156
+Discovered open port 22/tcp on 10.10.233.156
+Discovered open port 443/tcp on 10.10.233.156
+Increasing send delay for 10.10.233.156 from 0 to 5 due to max_successful_tryno increase to 4
+Connect Scan Timing: About 2.38% done; ETC: 19:29 (0:21:12 remaining)
+Connect Scan Timing: About 5.31% done; ETC: 19:28 (0:19:55 remaining)
+Increasing send delay for 10.10.233.156 from 5 to 10 due to max_successful_tryno increase to 5
+Connect Scan Timing: About 6.89% done; ETC: 19:31 (0:21:50 remaining)
+Connect Scan Timing: About 10.04% done; ETC: 19:28 (0:18:58 remaining)
+Increasing send delay for 10.10.233.156 from 10 to 20 due to max_successful_tryno increase to 6
+Increasing send delay for 10.10.233.156 from 20 to 40 due to max_successful_tryno increase to 7
+Connect Scan Timing: About 15.82% done; ETC: 19:31 (0:20:02 remaining)
+Increasing send delay for 10.10.233.156 from 40 to 80 due to max_successful_tryno increase to 8
+Connect Scan Timing: About 16.74% done; ETC: 19:33 (0:21:13 remaining)
+Connect Scan Timing: About 17.31% done; ETC: 19:35 (0:22:46 remaining)
+Connect Scan Timing: About 17.87% done; ETC: 19:37 (0:24:12 remaining)
+Connect Scan Timing: About 18.55% done; ETC: 19:39 (0:25:46 remaining)
+Connect Scan Timing: About 19.21% done; ETC: 19:41 (0:27:25 remaining)
+Connect Scan Timing: About 20.08% done; ETC: 19:44 (0:29:07 remaining)
+Connect Scan Timing: About 21.27% done; ETC: 19:47 (0:30:59 remaining)
+Increasing send delay for 10.10.233.156 from 80 to 160 due to max_successful_tryno increase to 9
+Increasing send delay for 10.10.233.156 from 160 to 320 due to max_successful_tryno increase to 10
+Connect Scan Timing: About 22.11% done; ETC: 19:50 (0:33:00 remaining)
+Connect Scan Timing: About 22.33% done; ETC: 19:53 (0:35:12 remaining)
+Connect Scan Timing: About 22.55% done; ETC: 19:56 (0:37:29 remaining)
+Connect Scan Timing: About 22.81% done; ETC: 19:59 (0:39:59 remaining)
+Connect Scan Timing: About 23.10% done; ETC: 20:03 (0:42:41 remaining)
+Connect Scan Timing: About 23.40% done; ETC: 20:07 (0:45:33 remaining)
+Connect Scan Timing: About 23.74% done; ETC: 20:11 (0:48:34 remaining)
+Connect Scan Timing: About 24.12% done; ETC: 20:16 (0:51:48 remaining)

@@ -1,0 +1,102 @@
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 19:40
+Completed NSE at 19:40, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 19:40
+Completed NSE at 19:40, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 19:40
+Completed NSE at 19:40, 0.00s elapsed
+Initiating Ping Scan at 19:40
+Scanning [MACHINE_IP] [2 ports]
+Completed Ping Scan at 19:40, 0.21s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 19:40
+Completed Parallel DNS resolution of 1 host. at 19:40, 0.04s elapsed
+DNS resolution of 1 IPs took 0.04s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 19:40
+Scanning [MACHINE_IP] [1000 ports]
+Discovered open port 3389/tcp on [MACHINE_IP]
+Discovered open port 80/tcp on [MACHINE_IP]
+Completed Connect Scan at 19:40, 15.96s elapsed (1000 total ports)
+Initiating Service scan at 19:40
+Scanning 2 services on [MACHINE_IP]
+Completed Service scan at 19:40, 6.70s elapsed (2 services on 1 host)
+NSE: Script scanning [MACHINE_IP].
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 19:40
+Completed NSE at 19:40, 3.79s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 19:40
+Completed NSE at 19:40, 0.68s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 19:40
+Completed NSE at 19:40, 0.00s elapsed
+Nmap scan report for [MACHINE_IP]
+Host is up, received syn-ack (0.17s latency).
+Scanned at 2022-09-05 19:40:01 IST for 27s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT     STATE SERVICE       REASON  VERSION
+80/tcp   open  http          syn-ack Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows Server
+3389/tcp open  ms-wbt-server syn-ack Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: RETROWEB
+|   NetBIOS_Domain_Name: RETROWEB
+|   NetBIOS_Computer_Name: RETROWEB
+|   DNS_Domain_Name: RetroWeb
+|   DNS_Computer_Name: RetroWeb
+|   Product_Version: 10.0.14393
+|_  System_Time: 2022-09-05T14:10:25+00:00
+| ssl-cert: Subject: commonName=RetroWeb
+| Issuer: commonName=RetroWeb
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2022-09-04T14:09:37
+| Not valid after:  2023-03-06T14:09:37
+| MD5:   9d15 173c 11f3 9c06 0157 bcc7 195e 41ce
+| SHA-1: ab0c 6c9f 215f 4716 9b99 b919 e2b6 e0ac 1d4e a11e
+| -----BEGIN CERTIFICATE-----
+| MIIC1DCCAbygAwIBAgIQF/HfeCpWIqlPLCXGNQ42LzANBgkqhkiG9w0BAQsFADAT
+| MREwDwYDVQQDEwhSZXRyb1dlYjAeFw0yMjA5MDQxNDA5MzdaFw0yMzAzMDYxNDA5
+| MzdaMBMxETAPBgNVBAMTCFJldHJvV2ViMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+| MIIBCgKCAQEAtFommsnTov13wE5o6HomTRIup8jqHa8UmlXO5e1eCN/yKhQlcAPV
+| PKOwO5zboZjstpIngmnyxCW8wnHxwLXuwyP8AeF/R3hlPy1W+hFJYSJqxcAtSc1l
+| aogI8iiVxO6g9FuUgz9WqvylANvWYlFqdFL3TCrNxObfQmbBRMPFZXHv7eeO4I5w
+| pfUL4saSf1eleeINlQ8oCeaV6xnNmwNgM87vgJ7uOGxnNZ5keijkQHZd/gWoFvs3
+| Zwk58MsfCSauiPz0DVpjcqE0SY43vnfmyKDSWBv7LWlBHkpPBYsOqmc7PbCJa0T+
+| 0WQEBmd0o3YlWzrKM6mqcVmZoJmOsbYNVQIDAQABoyQwIjATBgNVHSUEDDAKBggr
+| BgEFBQcDATALBgNVHQ8EBAMCBDAwDQYJKoZIhvcNAQELBQADggEBAEFDvG99zGqv
+| L7eW8nE9xJ3nwq38PbI1itaCd7+TAIu2QD4JZkZz3Xbph3IXUNVW2Sd4ud0WqIV/
+| ZhQtoG8aWXYEOX0Ft8ENKqfD42WyLz8SLA9pqOt8UlW9QYP+ItedTcpGeC8Vvf7K
+| XKQ2vxnmxosrIKrQ/TdpreU9gIXwn+EnULkPX733UzWMVamutGBCRa0Mvs/MAth9
+| uDOnyE6E4pDpblsQkf8Q6jHZbIwJwe6PXr+ppJrd5uZYMBbqIIvQo/DXaAqzBU5w
+| BXkrLbx6hJOs+QeyVQQBfQY1UehGchoW8nOBXNzM62s2EmOVEdgBqw0sDBnb/Dtw
+| g7aVPWrTIEI=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2022-09-05T14:10:28+00:00; 0s from scanner time.
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 0s, deviation: 0s, median: 0s
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 19:40
+Completed NSE at 19:40, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 19:40
+Completed NSE at 19:40, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 19:40
+Completed NSE at 19:40, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 28.10 seconds
